@@ -1,0 +1,16 @@
+# Data Fetching & OS
+kagglehub>=0.2.0
+
+# Numerical Processing & DataFrames
+numpy>=1.23.5
+pandas>=2.1.0
+
+# Deep Learning Framework
+tensorflow>=2.15.0
+
+# Natural Language Processing
+nltk>=3.8.1
+beautifulsoup4>=4.12.0
+
+# Visualization & Plotting
+matplotlib>=3.7.1

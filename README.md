@@ -17,21 +17,20 @@ The project explores multiple RNN-based architectures and selects the best-perfo
 
 ---
 
-## 🧠 Models Used
-- **LSTM (Long Short-Term Memory)**  
-- **Bidirectional LSTM**  
-- **GRU (Gated Recurrent Unit)** ✅ *Best Performing*  
+## 🧠 Model Architectures
+I have implemented three distinct types of layers to compare their ability to handle long-range dependencies:
 
-> 📊 GRU achieved better accuracy and faster training compared to other models.
+1. **Simple RNN:** The baseline model for sequential data.
+2. **LSTM (Long Short-Term Memory):** Designed to overcome the vanishing gradient problem using a "cell state" and three gating mechanisms.
+3. **GRU (Gated Recurrent Unit):** A more computationally efficient version of LSTM with a merged cell and hidden state.
 
 ---
 
-## 🛠️ Tech Stack
-- Python 🐍  
-- TensorFlow / Keras  
-- NumPy  
-- Matplotlib  
-
+## 🏗️ Technical Stack
+* **Language:** Python 3.x
+* **Framework:** TensorFlow / Keras
+* **Libraries:** NumPy, Pandas, Scikit-learn, Tokenizer
+* **Environment:** Google Colab (T4 GPU Accelerated)
 ---
 
 ## 📂 Project Workflow
